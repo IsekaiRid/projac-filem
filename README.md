@@ -1,9 +1,12 @@
-![download](https://github.com/IsekaiRid/projac-filem/assets/140608764/ad349145-fe7d-4baf-a990-a769c144219a)
+les star aja
 
-silakan ikuti cara isntall nya oke
-1.npm install
-2.npm run build
-3.npm run start
+### clone 
+``
 
-saya peke webpack
-![download](https://github.com/IsekaiRid/projac-filem/assets/140608764/4d2499af-fb45-4d19-86bc-774c86fff1ec)
+
+### Run 
+### How to Run
+1. _Clone_ atau _download_ proyek ini
+2. Buka Terminal/CMD/Powershell dan arahkan ke folder `webpack-bootstrap-sample`
+3. Jalankan perintah `npm install` dan tunggu hingga proses unduh dan pemasangan package selesai
+4. Gunakan perintah `npm run start-dev` untuk menjalankan proyek atau gunakan `npm run build` untuk mem-build proyek.
