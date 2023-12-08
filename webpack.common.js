@@ -9,7 +9,6 @@ module.exports = {
   },
   module: {
     rules: [
-      /* style and css loader */
       {
         test: /\.css$/,
         use: [
@@ -23,9 +22,7 @@ module.exports = {
       },
     ],
   },
-  /* plugin */
   plugins: [
-    /* HTML Webpack Plugin */
     new HtmlWebpackPlugin({
       template: './src/main.html',
       filename: 'index.html',
