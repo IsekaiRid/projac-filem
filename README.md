@@ -1,7 +1,7 @@
 les star aja
 
 ### clone 
-``
+gas clone `https://github.com/IsekaiRid/projac-filem.git`
 
 
 ### Run 
