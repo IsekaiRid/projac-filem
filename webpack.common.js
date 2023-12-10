@@ -2,11 +2,15 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
  
 module.exports = {
-  entry: './src/index.js',
+  entry:{
+    profil: './src/profil.js',
+    home: './src/index.js',
+  },
   output: {
-    filename: 'bundle.js',
+    chunkFilename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  
   module: {
     rules: [
       {
@@ -26,6 +30,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/main.html',
       filename: 'index.html',
+      chunks: ['home'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: 'profil.html',
+      chunks: ['profil'],
     }),
   ],
 };
