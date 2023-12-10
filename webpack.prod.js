@@ -5,7 +5,6 @@ module.exports = merge(common, {
   mode: 'production',
   module: {
     rules: [
-      /* babel loader */
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -19,5 +18,8 @@ module.exports = merge(common, {
         ],
       },
     ],
+  },
+  optimization: {
+    minimize: true,
   },
 });

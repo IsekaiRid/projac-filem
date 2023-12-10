@@ -1,7 +1,7 @@
-import "../layout/nav.js";
-import "../layout/search-bar.js";
-import "../layout/movie-list.js";
-import "../layout/footer.js";
+import "../layout/home/nav.js";
+import "../layout/home/search-bar.js";
+import "../layout/home/movie-list.js";
+import "../layout/home/footer.js";
 import DataSource from "../data/data-filem.js";
 
 const main = () => {
